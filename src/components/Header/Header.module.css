@@ -1,0 +1,97 @@
+/* Generic */
+.navLink {
+  padding: 10px 20px;
+  font-family: 'Open Sans';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer {
+    padding: 5% 5% 5% 5%;
+  }
+}
+
+/* Tablet View */
+
+@media screen and (min-wdith: 481px) and (max-width: 991px) {
+  .ContentContainer {
+    padding: 2% 5% 5% 2%;
+  }
+}
+
+/* Tablet & Mobile View */
+
+@media screen and (min-width: 991px) {
+  .ContentContainer {
+    padding: 5% 5% 5% 5%;
+  }
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 2% 5% 5% 2%;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerButtons {
+    width: 93px !important;
+    height: 32px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 16px !important;
+    z-index: 0;
+    background: transparent !important;
+    overflow: hidden;
+    border: 1px solid #CFD1D4 !important;
+    color: #CFD1D4;
+    font-size: 14px;
+  }
+  .headerButtons:hover {
+    color: #fff;
+  }
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .arrowIcon {
+    width: 15px;
+    height: 15px;
+    color: #cfd1d4;
+  }
+
+  .penSquare {
+    width: 15px;
+    height: 15px;
+    color: #cfd1d4;
+  }
+}

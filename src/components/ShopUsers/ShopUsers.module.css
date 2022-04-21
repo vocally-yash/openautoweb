@@ -1,0 +1,110 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer{
+    padding: 10% 5% 10% 5%;
+  }
+
+  .numberlist{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CFD1D4;
+    font-family:"Poppins",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .icons{
+    letter-spacing: 0px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    font-family:"Open Sans",sans-serif;
+    font-weight:600;
+    font-size: 14px;
+  }
+
+  .container{
+    flex-direction:row;
+  }
+
+  .Icons{
+    width: 31px;
+    height: 31px;
+  }
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 991px) {
+  .ContentContainer{
+    padding: 10% 5% 10% 5%;
+  }
+
+  .numberlist{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CFD1D4;
+    font-family:"Poppins",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .icons{
+    letter-spacing: 0px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    font-family:"Open Sans",sans-serif;
+    font-weight:600;
+    font-size: 14px;
+  }
+
+  .container{
+    flex-direction:row;
+  }
+
+  .Icons{
+    width: 31px;
+    height: 31px;
+  }
+}
+
+/* Tablet & Mobile View */
+
+@media screen and (min-width: 991px) {
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 8% 0% 6% 0%;
+    height: 327px;
+  }
+
+  .numberlist{
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal 600 24px/36px Poppins;
+    letter-spacing: 0px;
+    color: #CFD1D4;
+    font-family:"Poppins",sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+  }
+
+  .icons{
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-b5b8b9);
+    text-align: left;
+    font: normal normal 600 18px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    font-family:"Open Sans",sans-serif;
+    font-weight:600;
+    font-size: 22px;
+  }
+}

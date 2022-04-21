@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.241" y1="0.165" x2="0.761" y2="0.837" gradientUnits="objectBoundingBox">
+      <stop offset="0.011" stop-color="#81899e"/>
+      <stop offset="0.823" stop-color="#5e6882"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.818" y1="0.818" x2="0.302" y2="0.302" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.451" y1="0.493" x2="0.828" y2="0.797" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.823" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.421" y1="0.017" x2="0.613" y2="1.191" gradientUnits="objectBoundingBox">
+      <stop offset="0.011" stop-color="#f7f9ff"/>
+      <stop offset="0.823" stop-color="#cbd7ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_648" data-name="Group 648" transform="translate(-166.272 -438.507)">
+    <circle id="Ellipse_60" data-name="Ellipse 60" cx="16" cy="16" r="16" transform="translate(166.272 438.507)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_61" data-name="Ellipse 61" cx="12.957" cy="12.957" r="12.957" transform="translate(169.314 441.55)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_6465" data-name="Path 6465" d="M191.551,452.454l8.44,4.977-1.637,7.9s-1.063,2.5-1.2,2.605-4.936.788-4.936.788h-2.125l-6.969-3.932s.5-1.079.6-1.036a19.8,19.8,0,0,0,2.874,1.108c.171-.1,4.283-1.846,4.489-2.052s1.111.024,1.316-.354.6-3.253.707-3.254c.867-.008-.622-4.2-.622-4.3s-1.889-1.972-1.889-1.972Z" transform="translate(-4.326 -3.567)" opacity="0.17" fill="url(#linear-gradient-3)"/>
+    <g id="tracking" transform="translate(174.91 447.079)">
+      <path id="Path_4910" data-name="Path 4910" d="M190.17,461.25a6.03,6.03,0,1,0-4.763,2.335.754.754,0,1,1,0,1.508,7.543,7.543,0,1,1,5.837-2.769.754.754,0,0,1-1.092,1.039L185.8,459.01h-.005a1.525,1.525,0,0,1-.539.041,1.458,1.458,0,0,1-.424-.107,1.508,1.508,0,1,1,1.971-1.971,1.471,1.471,0,0,1,.106.424,1.508,1.508,0,0,1-.042.539v.005l1.141,1.141a3.014,3.014,0,1,0-2.6,1.485.754.754,0,1,1,0,1.508,4.527,4.527,0,1,1,3.688-1.9Z" transform="translate(-177.861 -450.007)" fill-rule="evenodd" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,189 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer{
+    padding: 10% 5% 10% 5%;
+  }
+  .connectTitle {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 0px;
+  }
+
+  .connectDescription {
+    color: var(--unnamed-color-b5b8b9);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .headerButtons {
+    width: 100% !important;
+    min-height: 47px;
+    background: transparent !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 22px !important;
+    margin-top: 17px;
+  }
+
+  .headerButtons:hover {
+    border: 1.5px solid #ffffff !important;
+    box-shadow: rgb(242, 126, 126) 0px 5px 15px !important;
+  }
+
+  .headerButtons:focus {
+    outline: none !important;
+    border: 1.5px solid #ffffff !important;
+  }
+
+  .imageSection{
+    width: 100%;
+   height: 316px;
+   margin-top: 2rem;
+  }
+}
+
+/* Tablet View & Mobile View*/
+
+@media screen and (max-width: 991px) {
+  .ContentContainer{
+    padding: 10% 5% 10% 5%;
+  }
+  .connectTitle {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 0px;
+  }
+
+  .connectDescription {
+    color: var(--unnamed-color-b5b8b9);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .headerButtons {
+    width: 100% !important;
+    min-height: 47px;
+    background: transparent !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 22px !important;
+    margin-top: 17px;
+  }
+
+  .headerButtons:hover {
+    border: 1.5px solid #ffffff !important;
+    box-shadow: rgb(242, 126, 126) 0px 5px 15px !important;
+  }
+
+  .headerButtons:focus {
+    outline: none !important;
+    border: 1.5px solid #ffffff !important;
+  }
+
+  .imageSection{
+    width: 100%;
+   height: 316px;
+   margin-top: 2rem;
+  }
+}
+
+/* Tablet & Mobile View */
+
+@media screen and (min-width: 991px) {
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 6% 0% 6% 0%;
+    height: 974px;
+  }
+
+  .connectTitle {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) 38px/50px Montserrat;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 38px/50px Montserrat;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .connectDescription {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) / 26px
+      var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-b5b8b9);
+    text-align: left;
+    font: normal normal normal 14px/26px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerButtons {
+    width: 288px !important;
+    min-height: 47px;
+    background: transparent !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 22px !important;
+    margin-top: 17px;
+  }
+
+  .headerButtons:hover {
+    border: 1.5px solid #ffffff !important;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px !important;
+  }
+
+  .headerButtons:focus {
+    outline: none !important;
+    border: 1.5px solid #ffffff !important;
+  }
+
+  .imageSection{
+    margin-left:4.5rem;
+    margin-top:5.5rem;
+    height:325px;
+  }
+}

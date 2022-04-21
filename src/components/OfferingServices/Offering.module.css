@@ -1,0 +1,154 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer {
+    padding: 10% 5% 5% 5%;
+  }
+
+  .serviceTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-family: Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .steponeTitle {
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .steponeDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Open Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .ecosystemImage {
+    width: 236px;
+    height: 137px;
+    margin-left: 2.5rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 991px) {
+  .ContentContainer {
+    padding: 10% 5% 5% 5%;
+  }
+
+  .serviceTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-family: Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .steponeTitle {
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .steponeDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Open Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .ecosystemImage {
+    width: 236px;
+    height: 137px;
+    margin-left: 2.5rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+/* Tablet & Mobile View */
+
+@media screen and (min-width: 991px) {
+  
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4% 0% 4% 0%;
+    height: 1406px;
+  }
+
+  .serviceTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .steponeTitle {
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .steponeDescription {
+    font-style:normal;
+    font-weight:normal;
+    font-size:14px;
+    font-family:Open Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .steponeLayout {
+    margin-right: 2rem;
+  }
+
+  .sectionTwo {
+    margin-top: 1.2rem;
+  }
+
+  .sectionThree {
+    margin-top: 1.2rem;
+  }
+
+  .sectionFour {
+    margin-top: 1.2rem;
+  }
+
+  .ecosystemImage {
+    width: 376px;
+    height: 219px;
+  }
+}

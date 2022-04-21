@@ -1,0 +1,296 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer{
+    padding: 10% 5% 10% 5%;
+  }
+  .headerButtons {
+    width: 50% !important;
+    height: 37px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 22px !important;
+    z-index: 0;
+    background: transparent !important;
+    overflow: hidden;
+    border: 2px solid #ffffff !important;
+    color: #4d759c;
+    margin-top: 1rem;
+  }
+  .headerButtons:hover {
+    color: #fff;
+  }
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .connectTitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+  }
+
+  .OpenTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing:0px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+  }
+
+  .OpenDescription {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: opx;
+    color:  #b5b8b9;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .heroImage{
+    margin-left: 50%;
+  }
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 991px) {
+  .ContentContainer{
+    padding: 10% 5% 10% 5%;
+  }
+  .headerButtons {
+    width: 50% !important;
+    height: 37px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 22px !important;
+    z-index: 0;
+    background: transparent !important;
+    overflow: hidden;
+    border: 2px solid #ffffff !important;
+    color: #4d759c;
+    margin-top: 1rem;
+  }
+  .headerButtons:hover {
+    color: #fff;
+  }
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .connectTitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+  }
+
+  .OpenTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing:0px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+  }
+
+  .OpenDescription {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: opx;
+    color:  #b5b8b9;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+}
+
+/* Tablet & Mobile View */
+
+@media screen and (min-width: 991px) {
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 7% 0% 6% 0%;
+    height: 676px;
+  }
+
+  .connectTitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 28px/80px Poppins;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+  }
+
+  .OpenTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+  }
+
+  .OpenDescription {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-b5b8b9);
+    text-align: left;
+    font: normal normal normal 14px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .connectBtn {
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    border-radius: 24px;
+    width: 12rem;
+  }
+
+  .connectBtnText {
+    border-radius: 25px;
+    font-family: "Open Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerButtons {
+    width: 148px !important;
+    height: 37px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 22px !important;
+    z-index: 0;
+    background: transparent !important;
+    overflow: hidden;
+    border: 2px solid #ffffff !important;
+    color: #4d759c;
+    margin-top: 1rem;
+  }
+  .headerButtons:hover {
+    color: #fff;
+  }
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .OpenAuto {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: centre;
+  }
+  .heroImage {
+    width: 38px;
+    height: 39px;
+    transition-duration: 0.5s;
+    margin: 30px auto 60px;
+    padding: 0px;
+  }
+
+  .heroImage:hover {
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .OpenTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+  }
+}

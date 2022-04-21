@@ -1,0 +1,286 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer {
+    padding: 10% 5% 5% 5%;
+    height: 1336px;
+  }
+
+  .aboutTitle {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+    font-style: normal;
+    font-weight: bold;
+    font-size:28px;
+  }
+
+  .AboutusSectionInfo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .headerButtons {
+    height: 44px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 22px !important;
+    z-index: 0;
+    background: transparent !important;
+    overflow: hidden;
+    border: 2px solid #ffffff !important;
+    color: #4d759c;
+    width: 148px;
+    height: 37px;
+  }
+
+  .headerButtonText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font: normal normal medium 12px/65px Jost;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .UsTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Monstserrat", sans-serif;
+    font-size: 24px;
+    text-align: left;
+    font: normal normal bold 24px/63px Montserrat;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .ContentSectionInfo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    font: normal normal normal 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 991px) {
+  .ContentContainer {
+    padding: 5% 5% 5% 5%;
+    height: 1156px;
+  }
+
+  .aboutTitle {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+    font-style: normal;
+    font-weight: bold;
+    font-size:28px;
+  }
+
+  .AboutusSectionInfo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .headerButtons {
+    height: 44px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 22px !important;
+    z-index: 0;
+    background: transparent !important;
+    overflow: hidden;
+    border: 2px solid #ffffff !important;
+    color: #4d759c;
+    width: 148px;
+    height: 37px;
+  }
+
+  .headerButtonText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font: normal normal medium 12px/65px Jost;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .UsTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Monstserrat", sans-serif;
+    font-size: 24px;
+    text-align: left;
+    font: normal normal bold 24px/63px Montserrat;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .ContentSectionInfo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    font: normal normal normal 12px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .BannerSection{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 0% 0% 0% 0%;
+    height: 1293px;
+  }
+
+  .AboutusSectionButton {
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    border-radius: 24px;
+    width: 12rem;
+  }
+
+  .AboutusSectionButtonText {
+    border-radius: 5px;
+    font-family: "Open Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .aboutTitle {
+    font-family: normal normal bold 38px/50px Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0.1rem;
+    color: #cfd1d4;
+    letter-spacing: 0px;
+    height: 53px;
+    width: 175px;
+  }
+
+  .AboutusSectionInfo {
+    color: #b5b8b9;
+    font-family: "Open Sans", Helvetica;
+    font-style: normal;
+    font-size: 14px;
+    width: 70%;
+    letter-spacing: 0px;
+  }
+
+  .UsTitle {
+    font-family: "Montserrat", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 4rem;
+    color: #cfd1d4;
+    text-align: left;
+    font: normal normal bold 38px/63px Montserrat;
+    letter-spacing: 0px;
+    margin-top: 3rem;
+  }
+
+  .ContentSectionInfo {
+    color: #b5b8b9;
+    margin-left: 3.8rem;
+    font-family: "Open Sans", Helvetica;
+    font-style: normal;
+    font-size: 14px;
+    width: 90%;
+    letter-spacing: 0px;
+  }
+
+  .WhyUsPicture {
+    margin-top: 19rem;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerButtons {
+    width: 175px !important;
+    height: 44px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 22px !important;
+    z-index: 0;
+    background: transparent !important;
+    overflow: hidden;
+    border: 2px solid #ffffff !important;
+    color: #4d759c;
+  }
+  .headerButtons:hover {
+    color: #fff;
+  }
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .BannerSection {
+    margin-left: 2rem;
+  }
+}

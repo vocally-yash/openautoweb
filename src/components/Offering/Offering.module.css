@@ -1,0 +1,276 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer {
+    padding: 7% 5% 7% 5%;
+  }
+
+  .Title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Poppins", Helvetica;
+    letter-spacing: 0px;
+    text-align: "center";
+    color: #CFD1D4;
+  }
+
+  .paragraphDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Open Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .subTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CFD1D4;
+  }
+
+  .headerButtons {
+    width: 35%;
+    height: 49px;
+    background: #2D3442 0% 0% no-repeat padding-box;
+    border: none !important;
+    border-radius: 5px;
+  }
+
+  .headerAppleButtons {
+    width: 176px;
+    height: 49px;
+    background: #2D3442 0% 0% no-repeat padding-box;
+    margin-left: 1rem;
+    border: none !important;
+    border-radius: 5px;
+  }
+
+  .getitOn {
+    font-size: 8px;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 200;
+  }
+}
+
+
+/* Tablet View */
+
+@media screen and (max-width: 991px) {
+  .ContentContainer {
+    padding: 7% 5% 7% 5%;
+  }
+
+  .Title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Poppins", Helvetica;
+    letter-spacing: 0px;
+    text-align: "center";
+    color: #CFD1D4;
+  }
+
+  .paragraphDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Open Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .subTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CFD1D4;
+  }
+
+  .headerButtons {
+    width: 40%;
+    height: 49px;
+    background: #2D3442 0% 0% no-repeat padding-box;
+    border: none !important;
+    border-radius: 5px;
+  }
+
+  .headerAppleButtons {
+    width: 40%;
+    height: 49px;
+    background: #2D3442 0% 0% no-repeat padding-box;
+    margin-left: 2.5rem;
+    border: none !important;
+    border-radius: 5px;
+  }
+
+  .getitOn {
+    font-size: 8px;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 200;
+  }
+
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4% 0% 5% 0%;
+    height: 771px;
+  }
+
+  .Title {
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    letter-spacing: 0.5px;
+    color: #cfd1d4;
+    margin-top: 6rem;
+  }
+
+  .paragraphDescription {
+    font-family: "open sans", sans-serif;
+    letter-spacing: 0.5px;
+    color: #b5b8b9;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0.8rem;
+  }
+
+  .subTitle {
+    font-family: "Monstserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    color: #cfd1d4;
+    width: 379px;
+    margin-top: 2.5rem;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerButtons {
+    width: 184px !important;
+    min-height: 51px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    z-index: 0;
+    overflow: hidden;
+    color: #4d759c;
+    margin-top: 17px;
+    background: #2d3442 !important;
+    border: 1.5px solid #2d3442 !important;
+    margin-top: 17px;
+    border-radius: 9px !important;
+  }
+
+  .headerButtons:hover {
+    color: #fff;
+  }
+
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .headerAppleButtonsText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerAppleButtons {
+    width: 184px !important;
+    min-height: 51px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    z-index: 0;
+    overflow: hidden;
+    color: #4d759c;
+    margin-top: 17px;
+    margin-left: 2.8rem;
+    background: #2d3442 !important;
+    border: 1.5px solid #2d3442 !important;
+    margin-top: 17px;
+    margin-left: 1.8rem;
+    border-radius: 9px !important;
+  }
+
+  .headerAppleButtons:hover {
+    color: #fff;
+  }
+
+  .headerAppleButtons:hover:after {
+    width: 100%;
+  }
+
+  .headerAppleButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .getitOn {
+    font-size: 7px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    letter-spacing: 0px;
+    margin-bottom: 0rem;
+  }
+}

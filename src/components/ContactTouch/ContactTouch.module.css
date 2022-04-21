@@ -1,0 +1,369 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer {
+    padding: 7% 5% 5% 5%;
+  }
+
+  .connectTitle {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CFD1D4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Monstserrat", sans-serif;
+    letter-spacing: 0px;
+  }
+
+  .connectDescription {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 2rem;
+  }
+
+  .headerButtons {
+    width: 100% !important;
+    min-height: 47px;
+    background: transparent !important;
+    border: 1.5px solid #ffffff !important;
+    border-radius: 22px !important;
+    margin-top: 17px;
+  }
+
+  .headerButtons:hover {
+    border: 1.5px solid #ffffff !important;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px !important;
+  }
+
+  .headerButtons:focus {
+    outline: none !important;
+    border: 1.5px solid #ffffff !important;
+  }
+
+  .touchImage {
+    margin-top: 2rem;
+    width: 360px;
+    height: 203px;
+  }
+
+  .phoneNumber {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    margin-top: 1rem;
+  }
+
+  .subphoneNumber {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .addressLocation {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .countryLocation {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .emailAddress {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    margin-top: 1rem;
+  }
+
+  .addressLocationText {
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-weight: normal;
+    margin-top: 0.1rem;
+    margin-left: 0.8rem;
+  }
+
+  .formGroup {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 991px) {
+  .ContentContainer {
+    padding: 7% 5% 5% 5%;
+  }
+
+  .connectTitle {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CFD1D4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Monstserrat", sans-serif;
+    letter-spacing: 0px;
+  }
+
+  .connectDescription {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 2rem;
+  }
+
+  .headerButtons {
+    width: 100% !important;
+    min-height: 47px;
+    background: transparent !important;
+    border: 1.5px solid #ffffff !important;
+    border-radius: 22px !important;
+    margin-top: 17px;
+  }
+
+  .headerButtons:hover {
+    border: 1.5px solid #ffffff !important;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px !important;
+  }
+
+  .headerButtons:focus {
+    outline: none !important;
+    border: 1.5px solid #ffffff !important;
+  }
+
+  .touchImage {
+    margin-top: 2rem;
+    width: 100%;
+    height: 203px;
+  }
+
+  .phoneNumber {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    margin-top: 1rem;
+  }
+
+  .subphoneNumber {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .addressLocation {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .countryLocation {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+  }
+
+  .emailAddress {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #B5B8B9;
+    margin-top: 1rem;
+  }
+
+  .addressLocationText {
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-weight: normal;
+    margin-top: 0.1rem;
+    margin-left: 0.8rem;
+  }
+
+  .formGroup {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+
+/* Tablet & Mobile View */
+
+@media screen and (min-width: 991px) {
+
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 10% 0% 6% 0%;
+    height: 758px;
+  }
+
+  .connectTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .connectDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .phoneNumber {
+    margin-top: 25px;
+    letter-spacing: 0.00px;
+    color: #b5b8b9;
+    font-family: "Open Sans";
+    font-size: 14px;
+  }
+
+  .subphoneNumber {
+    letter-spacing: 0.00px;
+    color: #b5b8b9;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+
+  .addressLocation {
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-weight: normal;
+    margin-top: 2rem;
+  }
+
+  .addressLocationText {
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-weight: normal;
+    margin-top: 0.1rem;
+    margin-left: 0.8rem;
+  }
+
+  .countryLocation {
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-weight: normal;
+    margin-left: 1.2rem;
+  }
+
+  .emailAddress {
+    margin-top: 25px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+    font-weight: normal;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerButtons {
+    width: 288px !important;
+    min-height: 47px;
+    background: transparent !important;
+    border: 1.5px solid #ffffff !important;
+    border-radius: 22px !important;
+    margin-top: 17px;
+  }
+
+  .headerButtons:hover {
+    border: 1.5px solid #ffffff !important;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px !important;
+  }
+
+  .headerButtons:focus {
+    outline: none !important;
+    border: 1.5px solid #ffffff !important;
+  }
+
+  .touchImage {
+    width: 100%;
+    height: 333px;
+  }
+
+  .formGroup {
+    margin-top: 1rem;
+    width: 70%;
+  }
+}

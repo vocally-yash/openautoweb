@@ -1,0 +1,389 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer {
+    padding: 7% 5% 5% 5%;
+  }
+
+  .apptitle {
+    font-style:normal;
+    font-weight:bold;
+    font-size:12px;
+    font-family:Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7e8a8f;
+    text-transform: uppercase;
+  }
+
+  .downloadtitle {
+    font-style:normal;
+    font-weight:bold;
+    font-size:24px;
+    font-family:Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+    width:70%;
+  }
+
+  .getitOn {
+    font-size: 7px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    letter-spacing: 0px;
+    margin-bottom: 0rem;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .headerButtons {
+    width: 35%;
+    height: 49px;
+    background: #060b14 0% 0% no-repeat padding-box;
+    border: none !important;
+  }
+
+  .headerAppleButtons {
+    width: 35%;
+    height: 49px;
+    background: #060b14 0% 0% no-repeat padding-box;
+    border: none !important;
+    margin-left: 2rem;
+  }
+
+  .imagePic{
+    width: 222px;
+    height: 30%;
+    margin-left:59px;
+  }
+
+  .description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Open Sans", Helvetica;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f6f9fa;
+  }
+  
+}
+
+@media screen and (max-width: 991px) {
+  .ContentContainer {
+    padding: 7% 5% 8% 5%;
+  }
+
+  .apptitle {
+    font-style:normal;
+    font-weight:bold;
+    font-size:12px;
+    font-family:Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7e8a8f;
+    text-transform: uppercase;
+  }
+
+  .downloadtitle {
+    font-style:normal;
+    font-weight:bold;
+    font-size:24px;
+    font-family:Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+    width:70%;
+  }
+
+  .getitOn {
+    font-size: 5px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    letter-spacing: 0px;
+    margin-bottom: 0rem;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .headerButtons {
+    width: 45%;
+    height: 49px;
+    background: #060b14 0% 0% no-repeat padding-box;
+    border: none !important;
+  }
+
+  .headerAppleButtons {
+    width: 45%;
+    height: 49px;
+    background: #060b14 0% 0% no-repeat padding-box;
+    border: none !important;
+    margin-left: 2rem;
+  }
+
+  .imagePic{
+    width: 222px;
+    height: 30%;
+  }
+
+  .description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Open Sans", Helvetica;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f6f9fa;
+  }
+}
+
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 5% 4% 10% 4%;
+    height: 727px;
+  }
+
+  .downloadtitle {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Open Sans", Helvetica;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #f6f9fa;
+  }
+
+  .apptitle {
+    margin-top: 4.8rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7e8a8f;
+    text-transform: uppercase;
+  }
+
+  .donwloadBtn {
+    margin-left: 0rem;
+    width:100%
+  }
+
+  .getitOn {
+    font-size: 7px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    letter-spacing: 0px;
+    margin-bottom: 0rem;
+  }
+
+  .headerButtonText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+
+  .headerButtons {
+    width: 224px !important;
+    min-height: 51px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px !important;
+    z-index: 0;
+    background: #060b14 !important;
+    overflow: hidden;
+    border: 1.5px solid #0e0c0c !important;
+    color: #4d759c;
+    margin-top: 17px;
+  }
+  .headerButtons:hover {
+    color: #fff;
+  }
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .headerAppleButtonsText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+
+  .headerAppleButtons {
+    width: 224px !important;
+    min-height: 51px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px !important;
+    z-index: 0;
+    background: #060b14 !important;
+    overflow: hidden;
+    border: 1.5px solid #0e0c0c !important;
+    color: #4d759c;
+    margin-top: 17px;
+    margin-left: 0.8rem;
+  }
+
+  .headerAppleButtons:hover {
+    color: #fff;
+  }
+  .headerAppleButtons:hover:after {
+    width: 100%;
+  }
+  .headerAppleButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .appSection{
+    margin-left:1.5rem;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .ContentContainer {
+    padding: 5% 4% 10% 4%;
+  }
+
+  .headerButtons {
+    width: 184px !important;
+    min-height: 51px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px !important;
+    z-index: 0;
+    background: #060b14 !important;
+    overflow: hidden;
+    border: 1.5px solid #0e0c0c !important;
+    color: #4d759c;
+    margin-top: 17px;
+  }
+  .headerButtons:hover {
+    color: #fff;
+  }
+  .headerButtons:hover:after {
+    width: 100%;
+  }
+  .headerButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+  .headerAppleButtonsText {
+    font-family: "Open Sans", Helvetica;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .headerAppleButtons {
+    width: 184px !important;
+    min-height: 51px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px !important;
+    z-index: 0;
+    background: #060b14 !important;
+    overflow: hidden;
+    border: 1.5px solid #0e0c0c !important;
+    color: #4d759c;
+    margin-top: 17px;
+    margin-left: 0.8rem;
+  }
+
+  .headerAppleButtons:hover {
+    color: #fff;
+  }
+  .headerAppleButtons:hover:after {
+    width: 100%;
+  }
+  .headerAppleButtons:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+}
+
+

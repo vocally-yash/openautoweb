@@ -1,0 +1,219 @@
+/* MobileView */
+
+@media screen and (max-width: 480px) {
+  .ContentContainer{
+    padding: 7% 5% 4% 5%;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7e8a8f;
+    text-transform: uppercase;
+  }
+
+  .headingTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Montserrat;
+    text-align: left;
+    font: normal normal bold 38px/50px Montserrat;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: left;
+    font: normal normal normal 14px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .ecosystemPic {
+    margin-top: 1.5rem;
+  }
+
+  .offerTitle {
+    font-style: normal;
+    font-size: 28px;
+    font-family: Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .offerDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: left;
+    font: normal normal normal 14px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .offerGroup{
+    margin-top:1.8rem;
+  }
+
+  .icons{
+    margin-top:1.8rem;
+  }
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 991px) {
+  .ContentContainer{
+    padding: 7% 5% 4% 5%;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #7e8a8f;
+    text-transform: uppercase;
+  }
+
+  .headingTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Montserrat;
+    text-align: left;
+    font: normal normal bold 38px/50px Montserrat;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: left;
+    font: normal normal normal 14px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .ecosystemPic {
+    margin-top: 1.5rem;
+  }
+
+  .offerTitle {
+    font-style: normal;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .offerDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Open Sans;
+    text-align: left;
+    font: normal normal normal 14px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .offerGroup{
+    margin-top:1.8rem;
+  }
+
+  .icons{
+    margin-top:1.8rem;
+  }
+}
+
+
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+  .ContentContainer {
+    padding: 7% 0% 6% 0%;
+    height: 768px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Roboto;
+    text-align: left;
+    font: normal normal bold 18px/80px Roboto;
+    letter-spacing: 0px;
+    color: #7e8a8f;
+    text-transform: uppercase;
+  }
+
+  .headingTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Montserrat;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .ecosystemPic {
+    margin-top: 1.5rem;
+  }
+
+  .offerTitle {
+    font-style: normal;
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #cfd1d4;
+  }
+
+  .offerDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #b5b8b9;
+  }
+
+  .offerGroup{
+    margin-top:1.8rem;
+  }
+
+  .icons{
+    margin-top:1.8rem;
+    margin-left:5.5rem;
+  }
+}
